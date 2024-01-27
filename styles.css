@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5F5;
+}
+
+.nav {
+    width: 100%;
+    height: 130px;
+    background-color: #392467;
+}
+
+.nav .min-content{
+    margin: 0 20%;
+    padding-top: 30px;
+}
+
+.nav .min-content .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .min-content .navbar .search input{
+    width: 700px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+
+.nav .min-content .navbar .search button {
+    position: absolute;
+    left: 62%;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.info ul {
+    display: flex;
+    
+}
+
+.info ul li {
+    padding-left: 15px;
+}
+
+.info ul li a{
+    color: white;
+}
+/* .nav .min-content .hamburger span {
+    padding: 4px;
+    width: 1.5rem;
+    border-bottom: 2px solid black;
+    display: block;
+} */
+
+section.min-content{
+    margin: 20px 20%;
+}
+
+section.min-content .container-content{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2)
+}
+
+section.min-content .container-content h3 {
+    padding-left: 7px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding-top: 3px;
+    height: 30px;
+    background-color: #392467;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-kategori {
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+}
+
+.content-kategori .box-pakaian {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+}
+
+.content-kategori .box-pakaian a{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.content-kategori .box-pakaian img{
+    margin: 20px 20px 10px 20px;
+    width: 80%;
+    transition: 0.5s ease-in-out;
+}
+
+.content-kategori .box-pakaian img:hover{
+    transform: scale(1.2);
+}
+
+section.min-content .container-produk{
+    width: 100%;
+}
+
+section.min-content .container-produk .header-produk{
+    width: 100%;
+    height: 30px;
+    background-color: #392467;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+section.min-content .container-produk .header-produk h3 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+section.min-content .container-produk .shopping-cart {
+    width: 180px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.gambar-produk {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar-produk img{
+    width: 80%;
+}
+
+.deskripsi p {
+    margin: 0 10px;
+    color: black;
+}
+
+.deskripsi p:last-child{
+    color: #392467;
+    font-weight: 500;
+}
+
+section.min-content .container-produk .shopping-cart:hover{
+    border: 1px solid #392467;
+    transform: scale(1.007);
+}
